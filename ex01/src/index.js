@@ -26,6 +26,6 @@ function button_clicked_back() {
   print = "";
 }
 
-function button_clicked_ok() {
+function button_clicked_submit() {
 alert(document.getElementById('input').value);
 }
