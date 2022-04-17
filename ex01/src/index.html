@@ -8,7 +8,8 @@
   </head>
   <body>
     <div>
-      <input type="text" id="input" placeholder="TEXT AREA">
+      <input type="text" class="input" id="input" name="input" placeholder="TEXT AREA" data-index="2">
+
     </div>
     <div class="grid-container">
       <button id="character" onclick="button_clicked('1')">1</button>
@@ -53,8 +54,8 @@
       <button id="character" onclick="button_clicked('_')">_</button>
       <button id="shift" onclick="button_clicked_caps()">Shift</button>
       <button id="space" onclick="button_clicked(' ')">Space</button>
-      <button id="enter" onclick="button_clicked_enter('<tr/>')">Enter</button>
-      <button id="submit" onclick="button_clicked_submit()">Submit</button>
+      <button id="enter" onclick="button_clicked_e()">OK</button>
+      <button id="submit" onclick="button_clicked_s()">Submit</button>
     </div>
     <script src="./index.js"></script>
   </body>
