@@ -108,25 +108,51 @@
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   }
 
-#ok{
+#enter{
     background-color: rgb(7, 7, 7);
     border: 1px solid rgba(238, 238, 238, 0.8);
     color: white;
     font-size: 20px;
     text-align: center;
     grid-column: 10/13;
+    grid-row: 5;
     height: 60px;
-    width: 180px;
+    width: 60px;
 }
-#ok:hover {
+#enter:hover {
     transition-duration: 0.1s;
     background-color: #3A3A3A;
   }
 
-#ok:active{
+#enter:active{
   transform: scale(0.98);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
+
+#submit{
+  background-color: rgb(7, 7, 7);
+  border: 1px solid rgba(238, 238, 238, 0.8);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-column: 11/12;
+  grid-row: 5;
+  height: 60px;
+  width: 120px;
+}
+#submit:hover {
+  transition-duration: 0.1s;
+  background-color: #3A3A3A;
+}
+
+#submit:active{
+transform: scale(0.98);
+box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+
+
 
 
 #input{
